@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+    gap: 50%;
+}
+
+.nav_link {
+    display: block;
+    font-size: 18px;
+    color: #828282;
+    width: auto;
+    height: 23px;
+    transition: 200ms;
+}
+
+.nav_link:hover {
+    color: #000000;
+    transition: 200ms;
+}
+
+.sep {
+    display: block;
+    width: 70%;
+    height: 1px;
+    margin: 10px auto 0px auto;
+    background: #828282;
+}
+
+.banner_flex {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.name {
+    font-size: 47.3392px;
+    line-height: 59px;
+    font-weight: 700;
+    color: #070707;
+    margin-top: 39px;
+}
+
+.prof {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin-top: 94px;
+}
+
+.lang {
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    margin-top: 69px;
+    cursor: pointer;
+}
+
+.active_lang {
+    color: #000000;
+}
+
+.banner_img {
+    display: block;
+    background-image: url(../images/BSPP2266.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    max-width: 943px;
+    height: 387px;
+    margin: 50px auto 104px auto;
+}
+
+.about {
+    background: #F6F6F6;
+}
+
+.about_header {
+    display: block;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #070707;
+    padding-top: 120px;
+    margin-bottom: 18px;
+}
+
+.about_text {
+    display: block;
+    max-width: 485px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 107px;
+}
+
+.skills_header {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-top: 91px;
+    margin-bottom: 69px;
+}
+
+.skills_text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 83px;
+}
+
+.skills_flex {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 110px;
+}
+
+.skill_logo {
+    display: block;
+    width: 89px;
+    height: 88px;
+    margin: 0px auto 24px auto;
+}
+
+.skill_name {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+#figma {
+    margin-bottom: 55px;
+}
+
+#figma_logo {
+    width: 58px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.portfolio {
+    background: #F6F6F6;
+}
+
+.portfolio_header {
+    padding-top: 112px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+}
+
+.case_img {
+    display: block;
+    width: 85%;
+    max-width: 936px;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto 44px auto;
+}
+
+#fashion {
+    background-image: url(../images/1.jpg);
+}
+
+#reebok {
+    background-image: url(../images/2.jpg);
+}
+
+#landing {
+    background-image: url(../images/3.jpg);
+}
+
+.case_name {
+    display: block;
+    width: 261px;
+    margin: 0px auto 99px auto;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+#last_case_name {
+    margin-bottom: 0px;
+    padding-bottom: 96px;
+}
+
+.contacts_header {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-top: 114px;
+    margin-bottom: 20px;
+}
+
+.contacts_text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 30px;
+}
+
+.contact_button {
+    display: block;
+    background: #000000;
+    padding: 12px 30px;
+    width: 122px;
+    margin: 0px auto 58px auto;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 200ms;
+}
+
+.contact_button:hover {
+    box-shadow: 5px 7px 18px -2px rgba(34, 60, 80, 0.35);
+    transition: 200ms;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 45px;
+}
+
+.social_img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.social_img:hover {
+    box-shadow: 5px 7px 18px -2px rgba(34, 60, 80, 0.35);
+    transition: 200ms;
+}
+
+.like_me {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 123px;
+}
+
+/* ADAPTATION */
+
+@media screen and (max-width: 960px) {
+    nav {
+        gap: 16%;
+    }
+    
+    .banner_flex {
+        gap: 13%;
+    }
+
+    .skills_flex {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .skills_flex {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    .banner_img {
+        width: 67%;
+        height: 200px;
+    }
+
+    .banner_flex {
+        gap: 9%;
+    }
+
+    nav {
+        gap: 14%;
+    }
+
+    .case_img {
+        height: 336px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .banner_img {
+        margin: 50px auto 60px auto;
+        height: 152px;
+    }
+
+    .name {
+        font-size: 39.3392px;
+        line-height: 48px;
+        margin-top: 42px;
+    }
+
+    .banner_flex {
+        gap: 5%;
+    }
+
+    .case_img {
+        height: 181px;
+        width: 60%;
+    }
+
+    .header {
+        display: block;
+    }
+
+    nav {
+        gap: 0px;
+        display: block;
+        width: 79px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav_link {
+        margin: 17px auto 17px auto;
+    }
+
+    .burger_btn {
+        display: block;
+        width: 64px;
+        height: 64px;
+        background: #828282;
+        position: absolute;
+        right: 5%;
+        top: 2%;
+    }
+}
